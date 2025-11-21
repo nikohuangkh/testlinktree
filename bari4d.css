@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: "Bebas Neue", cursive;
+}
+
+
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: red;
+  height: 150vh;
+  background-image: url(background\ bari.png);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  animation-direction: reverse;
+  text-shadow: #222;
+}
+
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+
+}
+
+.profile > img {
+  width: 100px;
+  height: 100px;
+  border: 3px solid #222;
+  border-radius: 100%;
+  stroke-opacity: var(#222);
+}
+
+.profile > p {
+  font-size: 1.5em SOLID BOLD ;
+  font-weight: 900;
+  font-display: block;
+  font-style: oblique;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-optical-sizing: inherit;
+  letter-spacing: 4px;
+  color: #0b4198;
+  text-transform: lowercase;
+  text-align: center;
+  text-decoration: double;
+  text-shadow: #222;
+  text-transform: uppercase;
+  outline-color: black;
+  background-color: rgb(250, 189, 36);
+  border-radius: 50PX;
+  border: 3PX SOLID #222;
+  padding: 7px;
+  
+  
+
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.link > a {
+  text-decoration: none;
+  color: #051a50;
+  font-size: 30px;
+  text-align: center;
+  border: 3px solid #222;
+  background-color: rgb(250, 189, 36);
+  border-radius: 10px;
+  margin: 10px 15px;
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.link > a:hover {
+  background-color: red;
+  text-shadow: #fff;
+  text-decoration-color: aliceblue;
+  text-shadow: #222;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer > i {
+  color: black;
+  font-size: 25PX;
+}
